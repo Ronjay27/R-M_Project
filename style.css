@@ -1,0 +1,372 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #edf1e8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    padding: 10px;
+    background-color: #b0b1af;
+    background-size: cover;
+
+}
+
+
+
+.stats {
+    
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-flow: row wrap;
+}
+
+.stats .stat {
+    
+        box-shadow: var(--shad);
+        overflow: hidden;
+        border-radius: 5px;
+        background: var(--wht);
+        cursor: pointer;
+        width: 18rem;
+        position: relative;
+}
+
+.stats .stat h3 {
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.stats .stat p {
+    font-size: 1.2em;
+    color: white;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.header .logo {
+    display: inline-block;
+    max-height: 150px;
+}
+
+.header h1, p {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin: 10px;
+    margin-right: 60px;
+}
+
+.sales-image {
+    align-items: center;
+    width: 95%;
+    height: 270px;
+    margin: 10px 24px ;
+}
+
+.user-image{
+    
+    align-items: center;
+    width: 95%;
+    height: 270px;
+    margin: 10px 24px ;
+    
+}
+
+.patient-image {
+    
+    align-items: center;
+    width: 95%;
+    height: 270px;
+    margin: 10px 24px ;
+    
+}
+
+.pharmacist-image {
+    align-items: center;
+    width: 95%;
+    height: 270px;
+    margin: 10px 24px ;
+}
+
+.cashier-image {
+    align-items: center;
+    width: 95%;
+    height: 270px;
+    margin: 10px 24px ;
+}
+
+.supplier-image {
+    align-items: center;
+    width: 95%;
+    height: 270px;
+    margin: 10px 24px ;
+}
+
+.inventory-image {
+    align-items: center;
+    width: 95%;
+    height: 270px;
+    margin: 10px 24px ;
+}
+
+.prescription-image {
+    align-items: center;
+    width: 95%;
+    height: 270px;
+    margin: 10px 24px ;
+}
+
+.payment-image {
+    align-items: center;
+    width: 95%;
+    height: 270px;
+    margin: 10px 24px ;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f7f9fc;
+    background-position: fixed;
+    background-size: cover;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1, h2, h3 {
+    opacity: 0.9;
+    text-align: center;
+    font-weight: 700;
+    color: black
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+/* Navigation Styles */
+.navigation {
+    opacity: 0.9;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    
+    align-items: center;
+    
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul li {
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    background-color: #959498;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+/* Table Styles */
+table {
+    align-items: center;
+    width: 98%;
+    border-collapse: collapse;
+    margin: 10px 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 8px 4px;
+    text-align: center;
+    font-size: 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #34495e;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+table tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Form Section Styles */
+.form-section {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f7f9fc;
+}
+
+.form-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+.form-section input[type="text"],
+.form-section input[type="number"],
+.form-section input[type="date"],
+.form-section input[type="email"],
+.form-section select,
+.form-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-section input[type="text"]:focus,
+.form-section input[type="number"]:focus,
+.form-section input[type="date"]:focus,
+.form-section input[type="email"]:focus,
+.form-section select:focus,
+.form-section textarea:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.form-section button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.form-section button:hover {
+    background-color: #2980b9;
+}
+
+/* Messages */
+.error-message {
+    color: #e74c3c;
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.success-message {
+    color: #27ae60;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(24, 21, 21);
+    color: #ecf0f1;
+    border-top: 1px solid #2c3e50;
+}
+
+.footer p {
+    color: white;
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    table th, table td {
+        font-size: 0.9em;
+        padding: 8px;
+        table-layout: auto;
+    }
+
+    .form-section input[type="text"],
+    .form-section input[type="number"],
+    .form-section input[type="date"],
+    .form-section input[type="email"],
+    .form-section select,
+    .form-section textarea {
+        font-size: 0.9em;
+    }
+
+    .form-section button {
+        font-size: 0.9em;
+        padding: 8px 12px;
+    }
+}
